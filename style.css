@@ -6,12 +6,13 @@ body {
 #head {
     background: black;
     display: flex;
-    height: 75px;
+    height: 100px;
     border-bottom: 1px solid white;
+    font-size: medium;
 }
 
 h1 {
-    font-size: xx-large;
+    
     margin: 3px;
     color: white;
 }
@@ -25,21 +26,18 @@ h1 {
    list-style-type: none;
    padding-right: 15%;
    color : white;
+   font-size: 1.5rem;
 }
 
 ul {
     display : flex;
     background-color: black;
     margin:0;
-    font-size: 1.25rem;
     justify-content: space-around;
+    
 }
 
-button.buttonHead {
-    height:25px;
-    width: 100px;
-    margin-right: 5%;
-}
+
 
 .Picture1 {
     height:300px;
@@ -56,8 +54,8 @@ button.buttonHead {
     justify-items: stretch;
     align-items: stretch;
     justify-content: space-around;
-    gap: 30px;
-    background: radial-gradient(rgb(253, 43, 43), white)
+    gap: 20px;
+    background: radial-gradient(rgb(253, 43, 43), white);
 }
 
 .manga {
